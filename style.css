@@ -1,0 +1,125 @@
+html {
+    background-color: peachpuff ;
+
+}
+
+.text-info {
+    font-size: 17px;
+    margin-bottom: 10px;
+    text-align: justify;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:khaki ;
+}
+.titulos{
+    font-size: 45px;
+    text-align: center;
+}
+
+.galeria-contenido {
+    width: 100%;
+    display: flex;
+    flex-wrap: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    background-color: khaki;
+
+}
+
+
+.galeria-contenido>img:hover {
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px 0 rgba(120, 120, 17, 0.5) ;
+}
+
+.footer {
+    font-size: medium;
+    font: message-box;
+    background-color: #333;
+    color: black;
+    width: 90%;
+    padding: 100px 100px;
+    margin: auto;
+
+}
+
+
+
+.card {
+    background-color: khaki;
+    margin: auto;
+    width: 25%;
+    height: 150px; 
+    text-align: center;
+    box-shadow: 0 3px 10px 0 rgba(191, 207, 20, 0.5);
+    transform: scale(1);
+    align-items: center;
+    margin: 10px;
+    
+
+    
+}
+
+
+
+.card:hover {
+    box-shadow: 0 0 10px 0 rgba(197, 204, 12, 0.5);
+    transform: scale(1.5);
+
+    
+}
+
+.card i{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+
+}
+
+.card h3 {
+    padding: 10px;
+}
+
+.encabezado{
+    background-color: khaki;
+    font-size: medium;
+    text-align: center;
+    padding: 5px ;
+    list-style-type: none;
+    flex: content;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+nav li {
+    margin-right: 20px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+nav a:hover {
+    text-decoration: underline;
+}
+
